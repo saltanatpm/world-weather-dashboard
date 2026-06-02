@@ -1,0 +1,24 @@
+# Weather Scraping Capstone
+
+## Project Overview
+
+This project collects weather data from a public website using Selenium, cleans the data using Pandas, stores the results in CSV format, and will 
+eventually store the data in SQLite and display insights through a Streamlit dashboard.
+
+## Setup
+
+Install dependencies:
+pip install -r requirements.txt
+
+## Run Scraper
+
+python scrape.py
+
+## Run Data Cleaning
+
+python clean_data.py
+
+## Output Files
+
+raw_weather.csv
+cleaned_weather.csv
