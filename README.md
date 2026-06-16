@@ -10,14 +10,14 @@ This project demonstrates end-to-end data pipeline skills:
 - Data cleaning and transformation
 - Data storage (SQLite)
 - Data visualization (Streamlit + Plotly)
-        ⚙️ Tech Stack
-        🧠 Python
-        🌐 Selenium (Web Scraping)
-        🐼 Pandas (Data Processing)
-        🗄️ SQLite (Database Storage)
-        📊 Plotly (Visualizations)
-        📦 Streamlit (Interactive Dashboard)
-        🚀 Features
+          ⚙️ Tech Stack
+          🧠 Python
+          🌐 Selenium (Web Scraping)
+          🐼 Pandas (Data Processing)
+          🗄️ SQLite (Database Storage)
+          📊 Plotly (Visualizations)
+          📦 Streamlit (Interactive Dashboard)
+          🚀 Features
         
 🔎 Web Scraping
     Scrapes global weather data from a dynamic website using Selenium
