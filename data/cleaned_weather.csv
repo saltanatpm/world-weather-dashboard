@@ -1,1 +1,48 @@
-City,Temperature,Condition
+City,Local_Time,Condition,Temperature
+Accra,Tue 2:43 am,Clear. Warm.,79
+Addis Ababa,Tue 5:43 am,Passing clouds. Cool.,59
+Adelaide,Tue 12:13 pm,Cool.,61
+Algiers,Tue 3:43 am,Clear. Mild.,72
+Almaty,Tue 7:43 am,Broken clouds. Warm.,79
+Amman,Tue 5:43 am,Clear. Mild.,63
+Amsterdam *,Tue 4:43 am,Clear. Cool.,54
+Anadyr,Tue 2:43 pm,Partly sunny. Refreshingly cool.,60
+Anchorage *,Mon 6:43 pm,Scattered clouds. Mild.,64
+Ankara,Tue 5:43 am,Sunny. Cool.,48
+Antananarivo,Tue 5:43 am,Passing clouds. Cool.,55
+Asuncion,Mon 11:43 pm,Clear. Cool.,48
+Athens *,Tue 5:43 am,Mild.,72
+Atlanta *,Mon 10:43 pm,Clear. Mild.,75
+Auckland,Tue 2:43 pm,Light rain. Scattered clouds. Cool.,57
+Baghdad,Tue 5:43 am,Clear. Pleasantly warm.,81
+Bangkok,Tue 9:43 am,Passing clouds. Warm.,88
+Barcelona *,Tue 4:43 am,Clear. Mild.,73
+Beijing,Tue 10:43 am,Haze. Mild.,71
+Belgrade *,Tue 4:43 am,Clear. Cool.,54
+Bengaluru,Tue 8:13 am,Passing clouds. Mild.,73
+Berlin *,Tue 4:43 am,Passing clouds. Cool.,48
+Bogota,Mon 9:43 pm,Partly cloudy. Cool.,55
+Boston *,Mon 10:43 pm,Passing clouds. Mild.,71
+Brasilia,Mon 11:43 pm,Clear. Mild.,68
+Brisbane,Tue 12:43 pm,Cool.,69
+Brussels *,Tue 4:43 am,Light rain. Clear. Cool.,61
+Bucharest *,Tue 5:43 am,Passing clouds. Mild.,63
+Budapest *,Tue 4:43 am,Clear. Cool.,52
+Buenos Aires,Mon 11:43 pm,Clear. Cool.,50
+Cairo *,Tue 5:43 am,Clear. Mild.,72
+Calgary *,Mon 8:43 pm,Light rain. Partly sunny. Mild.,68
+Canberra,Tue 12:43 pm,Sunny. Cool.,61
+Cape Town,Tue 4:43 am,Clear. Cool.,48
+Caracas,Mon 10:43 pm,Passing clouds. Warm.,79
+Casablanca *,Tue 3:43 am,Partly sunny. Mild.,73
+Chicago *,Mon 9:43 pm,Passing clouds. Mild.,70
+Copenhagen *,Tue 4:43 am,Passing clouds. Cool.,55
+Dallas *,Mon 9:43 pm,Passing clouds. Warm.,81
+Dar es Salaam,Tue 5:43 am,Passing clouds. Mild.,74
+Darwin,Tue 12:13 pm,Sunny. Warm.,86
+Denver *,Mon 8:43 pm,Passing clouds. Mild.,76
+Detroit *,Mon 10:43 pm,Clear. Mild.,68
+Dhaka,Tue 8:43 am,Low clouds. Warm.,83
+Doha,Tue 5:43 am,Sunny. Extremely hot.,93
+Dubai,Tue 6:43 am,Sunny. Warm.,84
+Dublin *,Tue 3:43 am,Passing clouds. Cool.,55

@@ -22,3 +22,7 @@ python clean_data.py
 
 raw_weather.csv
 cleaned_weather.csv
+
+streamlit
+pandas
+matplotlib

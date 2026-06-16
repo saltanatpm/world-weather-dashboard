@@ -1,28 +1,72 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 import pandas as pd
-import time
+from pathlib import Path
+
+# PATH SETUP
+BASE_DIR = Path(__file__).resolve().parent.parent
+DATA_DIR = BASE_DIR / "data"
+DATA_DIR.mkdir(exist_ok=True)
 
 driver = webdriver.Chrome()
 driver.get("https://www.timeanddate.com/weather/")
 
-time.sleep(5)
-data = []
+wait = WebDriverWait(driver, 10)
+wait.until(
+    EC.presence_of_element_located(
+        (By.CSS_SELECTOR, "table tbody tr")
+    )
+)
 
-#real table rows
+data = []
 rows = driver.find_elements(By.CSS_SELECTOR, "table tbody tr")
+
 for row in rows:
-    try:
-        cols = row.find_elements(By.TAG_NAME, "td")
-        city = cols[0].text
-        temp = cols[1].text
-        condition = cols[2].text
-        data.append([city, temp, condition])
-    except:
-        continue
+    cols = row.find_elements(By.TAG_NAME, "td")
+    if len(cols) >= 4:
+        city = cols[0].text.strip()
+        local_time = cols[1].text.strip()
+
+        condition = ""
+
+        try:
+            img = cols[2].find_element(By.TAG_NAME, "img")
+
+            condition = (
+                img.get_attribute("alt")
+                or img.get_attribute("title")
+                or ""
+            ).strip()
+
+        except:
+            condition = cols[2].text.strip()
+        temperature = cols[3].text.strip()
+
+        data.append([
+            city,
+            local_time,
+            condition,
+            temperature
+        ])
+
 driver.quit()
 
-df = pd.DataFrame(data, columns=["City", "Temperature", "Condition"])
-df.to_csv("data/raw_weather.csv", index=False)
+df = pd.DataFrame(
+    data,
+    columns=[
+        "City",
+        "Local_Time",
+        "Condition",
+        "Temperature"
+    ]
+)
 
-print("Scraping complete:", df.shape)
+output_file = DATA_DIR / "raw_weather.csv"
+df.to_csv(output_file, index=False)
+
+print("✅ Scraping completed successfully")
+print("📊 Total rows collected:", len(df))
+print("📁 Saved to:", output_file)
+print(df.head())

@@ -1,48 +1,48 @@
-City,Temperature,Condition
-Accra,Fri 6:11 pm,
-Addis Ababa,Fri 9:11 pm,
-Adelaide,Sat 3:41 am,
-Algiers,Fri 7:11 pm,
-Almaty,Fri 11:11 pm,
-Amman,Fri 9:11 pm,
-Amsterdam *,Fri 8:11 pm,
-Anadyr,Sat 6:11 am,
-Anchorage *,Fri 10:11 am,
-Ankara,Fri 9:11 pm,
-Antananarivo,Fri 9:11 pm,
-Asuncion,Fri 3:11 pm,
-Athens *,Fri 9:11 pm,
-Atlanta *,Fri 2:11 pm,
-Auckland,Sat 6:11 am,
-Baghdad,Fri 9:11 pm,
-Bangkok,Sat 1:11 am,
-Barcelona *,Fri 8:11 pm,
-Beijing,Sat 2:11 am,
-Belgrade *,Fri 8:11 pm,
-Bengaluru,Fri 11:41 pm,
-Berlin *,Fri 8:11 pm,
-Bogota,Fri 1:11 pm,
-Boston *,Fri 2:11 pm,
-Brasilia,Fri 3:11 pm,
-Brisbane,Sat 4:11 am,
-Brussels *,Fri 8:11 pm,
-Bucharest *,Fri 9:11 pm,
-Budapest *,Fri 8:11 pm,
-Buenos Aires,Fri 3:11 pm,
-Cairo *,Fri 9:11 pm,
-Calgary *,Fri 12:11 pm,
-Canberra,Sat 4:11 am,
-Cape Town,Fri 8:11 pm,
-Caracas,Fri 2:11 pm,
-Casablanca *,Fri 7:11 pm,
-Chicago *,Fri 1:11 pm,
-Copenhagen *,Fri 8:11 pm,
-Dallas *,Fri 1:11 pm,
-Dar es Salaam,Fri 9:11 pm,
-Darwin,Sat 3:41 am,
-Denver *,Fri 12:11 pm,
-Detroit *,Fri 2:11 pm,
-Dhaka,Sat 12:11 am,
-Doha,Fri 9:11 pm,
-Dubai,Fri 10:11 pm,
-Dublin *,Fri 7:11 pm,
+City,Local_Time,Condition,Temperature
+Accra,Tue 2:43 am,Clear. Warm.,79 °F
+Addis Ababa,Tue 5:43 am,Passing clouds. Cool.,59 °F
+Adelaide,Tue 12:13 pm,Cool.,61 °F
+Algiers,Tue 3:43 am,Clear. Mild.,72 °F
+Almaty,Tue 7:43 am,Broken clouds. Warm.,79 °F
+Amman,Tue 5:43 am,Clear. Mild.,63 °F
+Amsterdam *,Tue 4:43 am,Clear. Cool.,54 °F
+Anadyr,Tue 2:43 pm,Partly sunny. Refreshingly cool.,60 °F
+Anchorage *,Mon 6:43 pm,Scattered clouds. Mild.,64 °F
+Ankara,Tue 5:43 am,Sunny. Cool.,48 °F
+Antananarivo,Tue 5:43 am,Passing clouds. Cool.,55 °F
+Asuncion,Mon 11:43 pm,Clear. Cool.,48 °F
+Athens *,Tue 5:43 am,Mild.,72 °F
+Atlanta *,Mon 10:43 pm,Clear. Mild.,75 °F
+Auckland,Tue 2:43 pm,Light rain. Scattered clouds. Cool.,57 °F
+Baghdad,Tue 5:43 am,Clear. Pleasantly warm.,81 °F
+Bangkok,Tue 9:43 am,Passing clouds. Warm.,88 °F
+Barcelona *,Tue 4:43 am,Clear. Mild.,73 °F
+Beijing,Tue 10:43 am,Haze. Mild.,71 °F
+Belgrade *,Tue 4:43 am,Clear. Cool.,54 °F
+Bengaluru,Tue 8:13 am,Passing clouds. Mild.,73 °F
+Berlin *,Tue 4:43 am,Passing clouds. Cool.,48 °F
+Bogota,Mon 9:43 pm,Partly cloudy. Cool.,55 °F
+Boston *,Mon 10:43 pm,Passing clouds. Mild.,71 °F
+Brasilia,Mon 11:43 pm,Clear. Mild.,68 °F
+Brisbane,Tue 12:43 pm,Cool.,69 °F
+Brussels *,Tue 4:43 am,Light rain. Clear. Cool.,61 °F
+Bucharest *,Tue 5:43 am,Passing clouds. Mild.,63 °F
+Budapest *,Tue 4:43 am,Clear. Cool.,52 °F
+Buenos Aires,Mon 11:43 pm,Clear. Cool.,50 °F
+Cairo *,Tue 5:43 am,Clear. Mild.,72 °F
+Calgary *,Mon 8:43 pm,Light rain. Partly sunny. Mild.,68 °F
+Canberra,Tue 12:43 pm,Sunny. Cool.,61 °F
+Cape Town,Tue 4:43 am,Clear. Cool.,48 °F
+Caracas,Mon 10:43 pm,Passing clouds. Warm.,79 °F
+Casablanca *,Tue 3:43 am,Partly sunny. Mild.,73 °F
+Chicago *,Mon 9:43 pm,Passing clouds. Mild.,70 °F
+Copenhagen *,Tue 4:43 am,Passing clouds. Cool.,55 °F
+Dallas *,Mon 9:43 pm,Passing clouds. Warm.,81 °F
+Dar es Salaam,Tue 5:43 am,Passing clouds. Mild.,74 °F
+Darwin,Tue 12:13 pm,Sunny. Warm.,86 °F
+Denver *,Mon 8:43 pm,Passing clouds. Mild.,76 °F
+Detroit *,Mon 10:43 pm,Clear. Mild.,68 °F
+Dhaka,Tue 8:43 am,Low clouds. Warm.,83 °F
+Doha,Tue 5:43 am,Sunny. Extremely hot.,93 °F
+Dubai,Tue 6:43 am,Sunny. Warm.,84 °F
+Dublin *,Tue 3:43 am,Passing clouds. Cool.,55 °F
